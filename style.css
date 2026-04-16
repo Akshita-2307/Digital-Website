@@ -189,6 +189,7 @@ p{
     grid-column-end:2 ;
     grid-row-start: 1;
     grid-row-end:5 ;
+    
 }
 .item2{
     background-color: #F2F3FF;
@@ -218,6 +219,15 @@ p{
     grid-row-start: 1;
     grid-row-end:9 ;
 }
-
+.work{
+    border: 1px solid black;
+    width: 100%;
+    height: 825px;
+}
+.work1{
+    border: 1px solid balck;
+    width: 10px;
+    height: 10px;
+}
 
 

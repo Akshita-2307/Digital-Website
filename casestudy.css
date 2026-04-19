@@ -71,7 +71,7 @@ a:active{
 .smallcase{
     font-size:12px;
     letter-spacing:3px;
-    color:#6B7280;
+    color: #005A3C;
 }
 
 .caseheading{
@@ -102,34 +102,52 @@ a:active{
     width:100%;
     border-radius:12px;
 }
-
+#downimg{
+    margin-top: 85px;
+}
 .projecttitle{
     margin-top:15px;
-    font-weight:bold;
-    font-size:18px;
+    font-size:45px;
+    font-family: 'Manrope';
 }
-
+.subh{
+    color: #6B7280;
+    padding-top: 30px;
+}
 .projectdesc{
     margin-top:8px;
-    font-size:14px;
+    font-size:25px;
     color:#6B7280;
     width:85%;
 }
-.testimonial{
-    margin-top:80px;
-    margin-bottom:40px;
-    width:750px;
+.number{
+    margin-left: 105px;
+    margin-top: 100px;
 }
-
+.testimonial{
+    margin-bottom:10px;
+    width:750px;
+    display: flex;
+}
+.testimonial img{
+    border-radius: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
 .quote{
     font-size:18px;
     color:#131B2E;
+    margin-top: 10px;
+    font-weight: bolder;
+    line-height:1.5 ;
 }
 
 .author{
-    margin-top:15px;
+    margin-top:-20px;
     font-size:14px;
     color:#6B7280;
+    margin-left: 105px;
+    margin-bottom: 85px;
 }
 .method{
     width:100%;
@@ -211,11 +229,13 @@ a:active{
 
 .cta2title{
     font-family:'Manrope';
-    font-size:44px;
+    font-size:65px;
+    font-weight: 900;
+    
 }
 
 .cta2title span{
-    color:#0052FF;
+    color:#003EC7;
 }
 
 .cta2buttons{

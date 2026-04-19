@@ -67,6 +67,7 @@ a:active{
     width:1395px;
     padding-top:80px;
     padding-bottom:80px;
+    background-color: #faf8ff;
 }
 .capheader{
     display:grid;
@@ -75,31 +76,33 @@ a:active{
 }
 
 .capsmall{
-    font-size:12px;
+    font-size:14px;
     letter-spacing:3px;
-    color:#6B7280;
+    color:#005A3C;
 }
 
 .capheading{
     font-family:'Manrope';
-    font-size:56px;
+    font-size:66px;
     margin-top:15px;
 }
 
 .capheading span{
-    color:#0052FF;
+    color:#003EC7;
 }
 
 .capright{
-    font-size:16px;
+    font-size:21px;
     color:#434656;
+    margin-top: 62px;
 }
 .caprow{
-    margin-top:80px;
+    margin-top:109px;
     display:grid;
     grid-template-columns:1fr 1fr;
     column-gap:60px;
     align-items:center;
+    height: 616px;
 }
 
 .caprow.reverse{
@@ -107,40 +110,56 @@ a:active{
 }
 
 .capsub{
+
     font-size:12px;
     letter-spacing:2px;
     color:#6B7280;
 }
+#top{
+    margin-bottom: 480px;
+}
 
 .captitle{
-    font-size:32px;
+    font-size:40px;
     font-family:'Manrope';
     margin-top:10px;
 }
 
 .capdesc{
     margin-top:15px;
-    font-size:15px;
+    font-size:16px;
     color:#434656;
     width:420px;
+    line-height: 1.7;
 }
 
 .caplist{
-    margin-top:20px;
+    margin-top:25px;
     display:flex;
     flex-direction:column;
     gap:8px;
     color:#005A3C;
+    line-height: 1.5;
 }
 
 .caplinks{
     margin-top:20px;
     color:#0052FF;
+    line-height: 1.7;
 }
 .capimage img{
     width:100%;
     border-radius:12px;
+    height: 750px;
 }
+#newimg{
+    width:100%;
+    border-radius:12px;
+    height: 263px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .capgrid{
     margin-top:120px;
     display:grid;

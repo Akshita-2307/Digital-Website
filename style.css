@@ -233,8 +233,6 @@ p {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-
-
 }
 
 .info {
@@ -284,7 +282,6 @@ h3 {
 
 .item5 img {
     padding-top: 170px;
-
 }
 
 .info img {
@@ -316,7 +313,6 @@ h3 {
     margin-top: 5px;
     margin-left: 60px;
     margin-top: 85px;
-
 }
 
 .bar {
@@ -326,7 +322,6 @@ h3 {
     align-items: center;
     justify-content: center;
     gap: 20px;
-
 }
 
 .line {
@@ -509,6 +504,132 @@ h3 {
     margin-top: 10px;
     font-size: 14px;
     color: gray;
+}
+
+@media (max-width: 1024px) {
+    .photo {
+        display: none;
+    }
+    .big {
+        font-size: 48px;
+    }
+    .info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .item5 {
+        grid-column: 1/3;
+        grid-row: auto;
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .tiny, .tiny1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .con1 {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        gap: 15px;
+    }
+    .links {
+        padding-top: 10px;
+        gap: 20px;
+    }
+    .btn1 {
+        margin: 0;
+    }
+    .hero {
+        height: auto;
+        padding: 60px 20px;
+    }
+    .photo {
+        display: none;
+    }
+    .big {
+        font-size: 36px;
+        height: auto;
+    }
+    .bottom {
+        width: 100%;
+    }
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .experties {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .box {
+        width: 100%;
+        height: auto;
+    }
+    .nav1 {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .corner {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .info {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .item1, .item2, .item3, .item4, .item5 {
+        grid-column: auto;
+        grid-row: auto;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .work {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .work1 {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    .container {
+        height: auto;
+        column-gap: 20px;
+    }
+    .cta {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .cta1 {
+        width: 100%;
+        height: auto;
+    }
+    .ctabox {
+        padding: 40px 20px;
+    }
+    .ctahead {
+        font-size: 32px;
+    }
+    .ctatext {
+        width: 100%;
+    }
+    .footer {
+        height: auto;
+        padding: 30px 20px;
+    }
+    .footer1 {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .right {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .right {

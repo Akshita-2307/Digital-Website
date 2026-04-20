@@ -350,6 +350,93 @@ a:active{
     color:gray;
     font-size:14px;
 }
+@media (max-width: 1024px) {
+    .capheader {
+        grid-template-columns: 1fr;
+    }
+    .capright {
+        margin-top: 20px;
+    }
+    .caprow {
+        grid-template-columns: 1fr;
+    }
+    .reverse {
+        flex-direction: column-reverse;
+    }
+    .capgrid {
+        grid-template-columns: 1fr;
+    }
+    .pdgrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .con1 {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        gap: 15px;
+    }
+    .links {
+        padding-top: 10px;
+        gap: 20px;
+    }
+    .btn1 {
+        margin: 0;
+    }
+    .capwrap {
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .capheading {
+        font-size: 42px;
+    }
+    .caprow {
+        height: auto;
+    }
+    .capimage img, #newimg {
+        height: auto;
+    }
+    .productdesign {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .pdwrap {
+        width: 100%;
+    }
+    .pdgrid {
+        grid-template-columns: 1fr;
+    }
+    .cta3 {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .cta3wrap {
+        width: 100%;
+    }
+    .cta3title {
+        font-size: 28px;
+    }
+    .cta3buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer2 {
+        height: auto;
+        padding: 30px 20px;
+    }
+    .footerwrap {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .fcenter {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 .fright{
     font-size:14px;
     color:gray;

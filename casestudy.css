@@ -292,6 +292,111 @@ a:active{
     color:gray;
     font-size:14px;
 }
+@media (max-width: 1024px) {
+    .casegrid {
+        grid-template-columns: 1fr;
+    }
+    .methodwrap {
+        grid-template-columns: 1fr;
+    }
+    .methodright {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .con1 {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        gap: 15px;
+    }
+    .links {
+        padding-top: 10px;
+        gap: 20px;
+    }
+    .btn1 {
+        margin: 0;
+    }
+    .casewrap {
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .caseheading {
+        font-size: 36px;
+        width: 100%;
+    }
+    .casesub {
+        width: 100%;
+    }
+    #downimg {
+        margin-top: 40px;
+    }
+    .number {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .number img {
+        width: 100px;
+    }
+    .testimonial {
+        width: 100%;
+        flex-direction: column;
+    }
+    .testimonial img {
+        width: 100%;
+    }
+    .author {
+        margin-left: 0;
+    }
+    .method {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .methodwrap {
+        width: 100%;
+    }
+    .methodtitle {
+        font-size: 28px;
+    }
+    .methoddesc {
+        width: 100%;
+    }
+    .methodpoints {
+        flex-direction: column;
+    }
+    .methodright {
+        grid-template-columns: 1fr;
+    }
+    .cta2 {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .cta2wrap {
+        width: 100%;
+    }
+    .cta2title {
+        font-size: 36px;
+    }
+    .cta2buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer2 {
+        height: auto;
+        padding: 30px 20px;
+    }
+    .footerwrap {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .fcenter {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 .fright{
     font-size:14px;
     color:gray;

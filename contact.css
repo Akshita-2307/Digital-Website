@@ -297,6 +297,95 @@ textarea{
     color:gray;
     font-size:14px;
 }
+@media (max-width: 1024px) {
+    .contactwrap {
+        grid-template-columns: 1fr;
+    }
+    .layerbox {
+        width: 100%;
+    }
+    .formright {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact-list {
+        max-width: 100%;
+    }
+    .officecard {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .con1 {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        gap: 15px;
+    }
+    .links {
+        padding-top: 10px;
+        gap: 20px;
+    }
+    .btn1 {
+        margin: 0;
+    }
+    .hero {
+        width: 100%;
+        margin: 20px;
+        height: auto;
+    }
+    .text {
+        font-size: 28px;
+    }
+    .btext {
+        width: 100%;
+        height: auto;
+    }
+    .contactpage {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .contactwrap {
+        width: 100%;
+    }
+    .layerbox {
+        padding: 20px;
+    }
+    .inputrow {
+        grid-template-columns: 1fr;
+    }
+    .field {
+        width: 100%;
+    }
+    .formright {
+        flex-direction: column;
+    }
+    .contact-list {
+        padding: 1rem;
+    }
+    .map {
+        height: auto;
+    }
+    .map img {
+        width: 100%;
+        height: auto;
+    }
+    .footer2 {
+        height: auto;
+        padding: 30px 20px;
+    }
+    .footerwrap {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .fcenter {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 .fright{
     font-size:14px;
     color:gray;

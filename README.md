@@ -1,4 +1,4 @@
-# 🌐 Digital Agency Website
+# Digital Agency Website
 
 A responsive multi-page frontend website built from a design-first workflow
 
@@ -7,7 +7,7 @@ https://akshita-2307.github.io/Digital-Website/
 
 ---
 
-📖 Overview
+## 📖 Overview
 
 This project is a multi-page responsive digital agency website developed using HTML5 and CSS3 from a structured design reference.
 It demonstrates strong fundamentals in layout systems, typography hierarchy, reusable styling patterns, and scalable page architecture.
@@ -16,7 +16,7 @@ The goal of this project was to simulate a real-world frontend workflow — tran
 
 ---
 
-🎯 Project Objectives
+## 🎯 Project Objectives
 
 This build focuses on:
 
@@ -29,7 +29,7 @@ This build focuses on:
 
 ---
 
-✨ Key Features
+## ✨ Key Features
 
 ✔ Multi-page navigation structure
 ✔ Clean semantic HTML layout
@@ -42,7 +42,7 @@ This build focuses on:
 
 ---
 
-🧱 Project Architecture
+## 🧱 Project Architecture
 
 The project follows a modular multi-page structure similar to production landing websites:
 
@@ -64,16 +64,16 @@ This structure improves readability, maintainability, and scalability for future
 
 ---
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
-Core Technologies
+### Core Technologies
 
 - HTML5
 - CSS3
 - Flexbox Layout System
 - Responsive Design Principles
 
-Workflow Tools
+### Workflow Tools
 
 - Git
 - GitHub
@@ -81,7 +81,7 @@ Workflow Tools
 
 ---
 
-📐 Design Approach
+## 📐 Design Approach
 
 This project follows a design-first implementation strategy:
 
@@ -96,7 +96,7 @@ The result is a clean, agency-style landing experience rather than a single-page
 
 ---
 
-📱 Responsiveness Strategy
+## 📱 Responsiveness Strategy
 
 The interface adapts across:
 
@@ -113,7 +113,7 @@ Layout flexibility is achieved using:
 
 ---
 
-🧠 What This Project Demonstrates
+## 🧠 What This Project Demonstrates
 
 This project highlights practical frontend strengths:
 
@@ -126,7 +126,7 @@ This project highlights practical frontend strengths:
 
 ---
 
-🚀 Live Preview
+## 🚀 Live Preview
 
 Explore the deployed version here:
 
@@ -134,7 +134,7 @@ Explore the deployed version here:
 
 ---
 
-📈 Future Improvements
+## 📈 Future Improvements
 
 Planned enhancements to extend this project:
 
@@ -147,7 +147,7 @@ Planned enhancements to extend this project:
 
 ---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Akshita
 
@@ -156,7 +156,7 @@ https://github.com/Akshita-2307
 
 ---
 
-⭐ Why This Project Matters
+## ⭐ Why This Project Matters
 
 Instead of a single static page, this project demonstrates the ability to:
 
